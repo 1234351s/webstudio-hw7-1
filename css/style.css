@@ -1,0 +1,9 @@
+:root {
+  --red-color: rgb(255, 0, 0);
+}
+a[href*="https"] {
+  color: var(--red-color);
+}
+.list + p {
+    font-size: 24px;
+}
